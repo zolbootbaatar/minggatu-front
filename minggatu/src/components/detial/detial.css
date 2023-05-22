@@ -1,0 +1,50 @@
+.detial-category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3333;
+
+}
+.detial {
+    /* margin-top: 15px; */
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.img-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.p-content {
+    color: rgb(92, 92, 92);
+    font-size: large;
+    font-weight: 500;
+}
+
+h1{
+    color: green;
+}
+
+.img_detial img {
+    width: 100%;
+}
+.desc{
+    display: flex;
+    text-align: justify;
+}
+.garchig{
+    display: flex;
+    align-self: center;
+}
+@media screen and (max-width: 800px) {
+    .detial{
+        margin: 0 20px;
+    }
+  }
